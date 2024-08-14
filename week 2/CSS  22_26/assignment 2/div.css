@@ -1,0 +1,16 @@
+div.font1{
+    font-family:"Open Sans",sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-transform:capitalize ;
+}
+div.font2{
+      font-family: "Cairo", sans-serif;
+      font-weight: 700;
+      text-transform: capitalize
+}
+div.font3{
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}

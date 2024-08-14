@@ -1,0 +1,11 @@
+div{
+    border:solid red;
+}
+p{
+    background-color: antiquewhite;
+    border: inherit;
+    text-align: center;
+    text-transform: capitalize;
+    font-family:sans-serif;
+    margin:20px ;
+}

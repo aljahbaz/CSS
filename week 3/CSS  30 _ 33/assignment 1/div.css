@@ -1,0 +1,38 @@
+div{
+    width: 100px; ;
+    height: 100px ;
+}
+
+div.black{
+    background-color:rgb(0, 0, 0);
+    position: absolute;
+    top: 35px ;
+    left: 20px ;
+     z-index: 1 ;
+}
+
+div.blue{
+    background-color:rgb(0, 0, 255);
+    position: absolute;
+    top: 20px;
+    left: 20px ;
+    z-index: 2 ;
+}
+
+div.green{
+    background-color:green;
+    position: absolute;
+    top: 35px;
+    left: 35px ;
+    z-index: 3 ;
+
+}
+div.red{
+    background-color:red;
+    position: absolute;
+    top: 50px;
+    left: 50px ;
+    z-index: 4 ;
+}
+
+

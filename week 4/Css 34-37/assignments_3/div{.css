@@ -1,0 +1,50 @@
+p::after{
+    content: "";
+    width: 0px;
+    position: absolute;
+    text-align: center;
+    border: solid 10px;
+    border-color: transparent red transparent transparent ;
+    float: left;
+    left: -25px;
+    bottom: 10px;
+}
+p[data-person="Sayed"],p[data-person="Ahmed"],p[data-person="Osama"]{
+    background-color: rgba(164, 180, 182, 0.853);
+    width: 400px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    left: 50%;
+ }
+ p[data-person="Osama"]::before {
+   content:"Osama";
+   background-color: black;
+   color: white;
+   border: 5px;
+   position: absolute;
+   left: -60px;
+   
+ } 
+
+p[data-person="Ahmed"]::before{
+    content:"Ahmed";
+    background-color: black;
+    color: white;
+    border: 5px;
+    position: absolute;
+    left: -60px;
+    text-align: center;
+
+    
+    
+  }
+p[data-person="Sayed"]::before{
+    content:"Sayed";
+    background-color: black;
+    color: white;
+    border: 5px;
+    position: absolute  ;
+    left: -60px;
+    text-align: center;
+} 

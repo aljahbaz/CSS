@@ -1,0 +1,19 @@
+div.an{
+    border: 5px solid red;  
+}
+div.ab{
+    border-style: solid;
+    border-color: blue green;
+}
+div.ac{
+    border-style: dashed; 
+    border-color: red green blue yellow;
+}
+
+div{
+    padding: 5px;
+    border-width: 5px;
+    margin: 5px;
+    display: inline;
+    outline: black solid 5px;
+}

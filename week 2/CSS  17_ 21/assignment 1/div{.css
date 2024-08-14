@@ -1,0 +1,4 @@
+div{
+    text-transform: capitalize;
+    text-shadow: 0.5px 0.5px 0 orangered , 1px 1px 0 blue , 1.5px 1.5px 0 blueviolet;
+}

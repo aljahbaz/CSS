@@ -1,0 +1,54 @@
+table{
+    width: 700px;
+    position: relative;
+    left: 50%;
+    border-bottom: 2px solid green;
+}
+thead{
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: large;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+  }
+  tbody{
+    background-color: #eee;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+  }
+  .img{
+    position: relative;
+    top: 2px;
+  }
+  .view{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    /* font-size: large; */
+    cursor: pointer;
+    position: absolute;
+    width: 45px;
+    right: 10%;
+  }
+  .delete{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    /* font-size: large; */
+    cursor: pointer;
+    position: absolute;
+    width: 55px;
+    right: 1%;
+  }

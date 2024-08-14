@@ -1,0 +1,23 @@
+
+element.style{
+   font-size: 20px;
+}
+
+div{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.rem1{
+    font-size:2.5rem;
+}
+
+div.rem2{
+    font-size:2rem;
+}
+
+div.rem3{
+    font-size:1.5rem;
+
+}

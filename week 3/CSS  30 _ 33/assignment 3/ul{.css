@@ -1,0 +1,29 @@
+ul.main{
+    width: 400px;
+    position: relative;
+    left: 50%;
+}
+li{
+    margin-bottom: 15px;
+    background-color:#eee;
+
+}
+
+.html ,.css , .java{
+    padding: 10px;
+    list-style-type: none;
+}
+.li1 , .li2 , .li3 {
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+    background-color: white;
+}
+.li2{
+    list-style-type:upper-roman;
+}
+.li3{
+    list-style-position: inside;
+}
+.bablo{
+   padding: 0px;
+}

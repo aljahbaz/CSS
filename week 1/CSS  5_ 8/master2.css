@@ -1,0 +1,18 @@
+
+
+.element-1{
+   border-left: 5px solid purple;
+}
+
+.element-2{
+    visibility: hidden;
+}
+
+.element-3{
+    
+}
+
+div{
+    background-color: aliceblue;
+    width: 400px;
+}

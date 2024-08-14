@@ -1,0 +1,27 @@
+div.one{
+    width: 400px;
+    background-color: bisque;
+    padding: 15px ;
+    margin: 15px ;
+    
+}
+div.two{
+    width: 400px;
+    background-color: bisque;
+    padding: 15px ;
+    margin: 15px ;
+    overflow: hidden;
+    white-space: nowrap;
+
+    
+}
+div.three{
+    width: 400px;
+    background-color: bisque;
+    padding: 15px ;
+    margin: 15px ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    
+}

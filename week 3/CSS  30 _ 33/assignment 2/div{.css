@@ -1,0 +1,40 @@
+div{
+    width: 400px;
+    position: relative;
+    left: 50%;
+    background-color:#eee;
+    border-top: 2px solid red;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue ;
+    border-bottom: 2px solid red;
+    padding: 20px;
+
+}
+span{
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+span.top-left{
+    top: -7%;
+    left:-3% ;
+    border-right: 2px solid red;
+}
+span.bottom-left{
+    top: 90%;
+    left: -3%;
+    border-right: 2px solid red;
+}
+span.top-right{
+    top: -7%;
+    left: 97%;
+    border-left: 2px solid red;
+}
+span.bottom-right{
+    top: 90%;
+    left: 97%;
+    border-left: 2px solid red;
+}

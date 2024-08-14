@@ -1,0 +1,71 @@
+.parent-1 , .parent-2, .parent-3 {
+    width: 100px ;
+    height: 100px ;
+    position: absolute;
+    background-color: rgb(227, 236, 230);
+    border-radius: 50px ;
+    -webkit-border-radius: 50px ;
+    -moz-border-radius: 50px ;
+    -ms-border-radius: 50px ;
+    -o-border-radius: 50px ;
+    border-color: black;
+    border-style: solid;
+    box-shadow: -10px -10px 0 hsl(312, 71%, 58%) , 10px 10px 0 hwb(216 36% 19%);
+
+
+}
+.parent-1{
+    left: 30px;
+
+    }
+.parent-2{
+    left: 180px;
+}
+.parent-3{
+    left: 340px;
+}
+.son-1 , .son-2 , .son-3 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+    color: white;
+    top: 0px;
+}
+.son-1{
+    left: 69px;
+}
+.son-2{
+    left: 220px;
+}
+.son-3{
+    left: 380px;
+}
+.text-1 , .text-2 , .text-3 {
+    position: absolute;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+
+}
+.text-1{
+    top: 48px;
+    left: 56px;
+}
+.text-2{
+    top: 48px;
+    left: 203px;
+}
+.text-3{
+    top: 48px;
+    left: 365px;
+}
+div{
+    outline-color: black;
+}

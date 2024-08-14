@@ -1,0 +1,13 @@
+p.one  {
+    text-transform:uppercase;
+    text-align: center;
+}
+p.two {
+    text-transform:capitalize;
+    text-align: center;
+}
+p.three {
+    text-transform:none;
+    text-align: center;
+}
+

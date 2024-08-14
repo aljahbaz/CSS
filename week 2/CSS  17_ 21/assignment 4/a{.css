@@ -1,0 +1,22 @@
+a{
+    background-color:rgba(7, 154, 68, 0.671);
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    text-decoration-line:none ;
+    /* text-decoration-color: rgba(1, 104, 1, 0.796);
+   text-decoration-thickness:7.5px ; */
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+div.one{
+    width: 50px;
+    height: 500px;
+    position:;
+    top: 60%;
+    left: 50%;
+}

@@ -1,0 +1,19 @@
+div{
+    background-color: rgba(103, 99, 99, 0.975);
+    position: relative;
+    left: 50%;
+    width: 300px;
+    padding: 15px 0 0 0 ;
+    height: 30px;
+    text-align: center;
+    
+}
+div::first-letter{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    right: 20%;
+    
+}

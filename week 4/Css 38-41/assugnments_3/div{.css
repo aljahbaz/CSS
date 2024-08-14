@@ -1,0 +1,74 @@
+div.big-parent{
+    width: 550px;
+    position: relative;
+    left: 50%;
+    box-sizing: border-box;
+    background-color: blueviolet;
+}
+.parent1 , .parent2 {
+    background-color: rgb(194, 194, 194);
+    box-sizing: border-box;
+    position: absolute;
+    height: 300px;
+    width: 41%;
+
+
+}
+.parent2{
+    left: 50%;
+}
+.title1 , .title2{
+    width: 150px;
+    height:25px;
+    margin-left: 40px;
+    background-color: rgb(6, 99, 230);
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: large;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.praice1 , .praice2 {
+    width: 175px;
+    height: 175px;
+    margin: 15px 0 0 25px;
+    background-color: rgb(212, 212, 212);
+    position:absolute;
+    font-size: xxx-large ;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius:calc(175px/2) ;
+    -webkit-border-radius:calc(175px/2) ;
+    -moz-border-radius:calc(175px/2) ;
+    -ms-border-radius:calc(175px/2) ;
+    -o-border-radius:calc(175px/2) ;
+}
+
+.or{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(6, 99, 230) ;
+    position:absolute;
+    top: 125px;
+    left: 43.5%;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.line{
+    width: 2px;
+    height: 300px;
+    left: 45%;
+    position: absolute;
+    background-color:  rgb(6, 99, 230);
+}
